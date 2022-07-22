@@ -8,9 +8,7 @@
 - Install nfs client on all the nodes
 ### Steps
 <code>
- - kubectl apply -f class.yaml</br>
- - kubectl apply -f rbac.yaml</br>
- - kubectl apply -f deployment.yaml
+ - kubectl apply -f class.yaml rbac.yaml deployment.yaml
 </code>
 
 ### The Helm way
